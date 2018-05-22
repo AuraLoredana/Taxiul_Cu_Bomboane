@@ -1,0 +1,36 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aura.popescu.tcb.About">
+
+    <com.aura.popescu.tcb.TrackingScrollViewVol
+        android:id="@+id/scroller"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="251dp"
+                    android:paddingBottom="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/voluntaritcb"
+                    android:contentDescription="@string/volunteers_tcb" />
+
+                <include layout="@layout/contentvolunteer" />
+        </LinearLayout>
+
+
+        </FrameLayout>
+
+    </com.aura.popescu.tcb.TrackingScrollViewVol>
+
+</merge>
