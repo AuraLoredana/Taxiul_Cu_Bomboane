@@ -3,10 +3,16 @@
     <string name="compose_email">Compose Email</string>
     <string name="Close" />
     <string name="Open" />
+    <string name="widget_id">App Widget ID\u0020</string>
+    <string name="URL">Vezi ultimele noutati pe blogul nostru!</string>
     <string-array name="lang_select">
         <item>Romanian</item>
         <item>English</item>
     </string-array>
+    <string name="btn_schedule">Schedule Job</string>
+    <string name="btn_cancel">Cancel Job</string>
+    <string name="job_scheduled">Job scheduled!</string>
+    <string name="job_cancelled">Job cancelled!</string>
     <string name="desprenoi">" "Totul a început cu o simplă iniţiativă în primăvara lui 2012 când taximetristul Ion Cristian Roman a dorit să transforme o simplă călătorie prin Bucureşti într-una specială.
         Clienţii primeau bomboane, puteau asculta o muzica placuta sau puteau primi un tur inedit al Capitalei.
         Mai apoi taximetristul s-a gândit că ar putea să strângă carti si jucarii pentru copiii din spitale, urmând ca în fiecare sâmbătă
@@ -99,6 +105,24 @@
     <string name="upload_icon">upload icon</string>
     <string name="menu_send_icon">menu send icon</string>
     <string name="logo_of_tcb">logo of tcb</string>
+    <string name="login">Login</string>
+    <string name="enter_username">enter username</string>
+    <string name="enter_password">enter password</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="asociatiataxiulcubomboane_gmail_com">asociatiataxiulcubomboane@gmail.com</string>
+    <string name="register">Register</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="click_to_open_sharing_option">Click to open sharing option</string>
+    <string name="enlocale">Locale in English !</string>
+    <string name="rolocale">Locale in Romanian !</string>
+    <string name="langalreadyexists">Language already selected!</string>
+    <string name="schedule_job">Schedule job</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
 
 
 </resources>

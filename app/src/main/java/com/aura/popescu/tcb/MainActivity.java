@@ -18,12 +18,15 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.jobdispatcher.FirebaseJobDispatcher;
+
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String JOB_TAG = "ScheduledJobService";
     Locale myLocale;
     String currentLanguage = "ro", currentLang;
+    private FirebaseJobDispatcher mDispatcher;
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
@@ -40,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         TextView textview = new TextView(MainActivity.this);
 
@@ -92,40 +96,17 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, R.string.share, Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(MainActivity.this, ShareActivity.class));
                         break;
+                    case R.id.schedule:
+                        Toast.makeText(MainActivity.this, R.string.schedule_job, Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this, SchedulerJob.class));
+                        break;
                     default:
                         return true;
                 }
                 return true;
             }
         });
-
-        /*ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                switch (position) {
-                    case 0:
-                        break;
-                    case 1:
-                        setLocale("ro");
-                        //getDrawable(R.drawable.flag_ro);
-                        break;
-                    case 2:
-                        setLocale("en");
-                        //getDrawable(R.drawable.flag_us);
-                        break;
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-            }
-        });*/
     }
-
 
     public void onBackPressed() {
         Intent intent = new Intent(Intent.ACTION_MAIN);
@@ -147,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             refresh.putExtra(currentLang, localeName);
             startActivity(refresh);
         } else {
-            Toast.makeText(MainActivity.this, "Language already selected!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, R.string.langalreadyexists, Toast.LENGTH_SHORT).show();
         }
     }
     @Override
@@ -167,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
                 Configuration config = new Configuration();
                 config.locale = locale;
                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
-                Toast.makeText(this, "Locale in English !", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, R.string.enlocale, Toast.LENGTH_LONG).show();
                 break;
             case R.id.rom:
                 setLocale("ro");
@@ -176,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
                 Configuration config1 = new Configuration();
                 config1.locale = locale1;
                 getBaseContext().getResources().updateConfiguration(config1, getBaseContext().getResources().getDisplayMetrics());
-                Toast.makeText(this, "Locale in Romanian !", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, R.string.rolocale, Toast.LENGTH_LONG).show();
             default:
                 // Do nothing.
         }

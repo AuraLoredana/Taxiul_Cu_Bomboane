@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">TCB</string>
     <string name="compose_email">Compose Email</string>
+    <string name="widget_id">App Widget ID\u0020</string>
+    <string name="URL">Check out the latest news on our blog!</string>
+    <string-array name="lang_select">
+        <item>Romanian</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="btn_schedule">Schedule Job</string>
+    <string name="btn_cancel">Cancel Job</string>
+    <string name="job_scheduled">Job scheduled!</string>
+    <string name="job_cancelled">Job cancelled!</string>
     <string name="Close" />
     <string name="Open" />
     <string name="desprenoi">" "It all started with a simple initiative in the spring of 2012 when the taxi driver Ion Cristian Roman wanted to turn a simple trip through Bucharest into a special one. Customers were getting candy, listening to a nice music, or getting an unprecedented tour of the capital. Then the taxi driver thought he could collect books and toys for hospital children, and then go to the Marie Curie Emergency Clinical Hospital every Saturday.\n
@@ -67,15 +78,12 @@
     <string name="pachet_voluntari_adulti">Adult Voluntary Package</string>
     <string name="pachet_voluntari_minori">Minor Voluntary Package</string>
     <string name="doneaza">Donate!</string>
-    <string name="vinereasperantei">FRIDAYS OF HOPE</string>
-    <string name="canutacubomb">THE CUP WITH CANDY - The Cup With Candy  is a yearly campaign on June 1. In 2016, just the first edition, the children in hospitals received sweets and cartoons with drawings and encouraging messages from nearly 2,000 people!</string>
     <string name="language_setting">langset</string>
     <string name="proiectele_noastre">Our Projects</string>
     <string name="despre_noi">About</string>
     <string name="devino_voluntar">Become a volunteer</string>
     <string name="doneazahomepage">Donate</string>
     <string name="va_multumim">Thank You!</string>
-    <string name="canuta">THE CUP WITH CANDY - The Cup With Candy  is a yearly campaign on June 1. In 2016, just the first edition, the children in hospitals received sweets and cartoons with drawings and encouraging messages from nearly 2,000 people!</string>
     <string name="rate_us">Rate us</string>
     <string name="share">Share</string>
     <string name="rate_this_app">Rate this app</string>
@@ -87,6 +95,21 @@
     <string name="upload_icon">upload icon</string>
     <string name="menu_send_icon">menu send icon</string>
     <string name="logo_of_tcb">logo of tcb</string>
+    <string name="login">Login</string>
+    <string name="enter_username">enter username</string>
+    <string name="enter_password">enter password</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="asociatiataxiulcubomboane_gmail_com">asociatiataxiulcubomboane@gmail.com</string>
+    <string name="register">Register</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="click_to_open_sharing_option">Click to open sharing option</string>
+    <string name="enlocale">Locale in English !</string>
+    <string name="rolocale">Locale in Romanian !</string>
+    <string name="langalreadyexists">Language already selected!</string>
+    <string name="schedule_job">Schedule job</string>
 
 
 </resources>

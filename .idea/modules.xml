@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AuraLoredana-TCB-f30bbce.iml" filepath="$PROJECT_DIR$/AuraLoredana-TCB-f30bbce.iml" />
-      <module fileurl="file://C:\Users\POPESCU\Desktop\My work\AuraLoredana-TCB-f30bbce\TCB.iml" filepath="C:\Users\POPESCU\Desktop\My work\AuraLoredana-TCB-f30bbce\TCB.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\POPESCU\Desktop\My work\AuraLoredana-TCB-f30bbce\app\app.iml" filepath="C:\Users\POPESCU\Desktop\My work\AuraLoredana-TCB-f30bbce\app\app.iml" />
     </modules>
   </component>
 </project>

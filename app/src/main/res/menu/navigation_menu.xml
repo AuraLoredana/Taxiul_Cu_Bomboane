@@ -36,5 +36,10 @@
             android:icon="@drawable/shareicon"
             android:title="@string/share"
             app:showAsAction="always" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/scheduleicon"
+            android:title="@string/schedule_job"
+            app:showAsAction="always" />
     </group>
 </menu>

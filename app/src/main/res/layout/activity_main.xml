@@ -11,12 +11,13 @@
         android:layout_height="match_parent">
 
 
+
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:contentDescription="@string/donation_pic"
     android:scaleType="centerCrop"
-    android:src="@drawable/donation"
-    android:contentDescription="@string/donation_pic" />
+    android:src="@drawable/donation" />
 
 
     </RelativeLayout>
