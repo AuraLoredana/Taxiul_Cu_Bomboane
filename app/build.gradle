@@ -8,14 +8,18 @@ android {
             storeFile file("$rootDir/tcbproject.jks")
             storePassword '1988@CDAMS'
         }
+        lintOptions {
+            abortOnError false
+        }
+
     }
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.aura.popescu.tcb"
         minSdkVersion 16
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 27
+        versionCode 4
+        versionName "1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         defaultConfig {
             multiDexEnabled true
@@ -44,28 +48,33 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     //noinspection GradleCompatible
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
     //noinspection GradleCompatible
-    implementation 'com.google.firebase:firebase-core:15.0.2'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
     //noinspection GradleDynamicVersion
     implementation 'com.firebase:firebase-client-android:2.5.2+'
     implementation 'com.firebaseui:firebase-ui:0.6.2'
-    implementation 'com.google.firebase:firebase-storage:15.0.2'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
     implementation 'com.firebase:firebase-jobdispatcher:0.5.0'
-    implementation 'com.google.firebase:firebase-database:15.0.0'
-    implementation 'com.google.firebase:firebase-auth:15.1.0'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-auth:16.0.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     implementation 'com.mindorks:placeholderview:0.2.7'
     implementation 'com.android.volley:volley:1.0.0'
-    implementation 'com.android.support:design:26.1.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:0.5'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation('com.google.auth:google-auth-library-oauth2-http:0.6.0') {
         // Exclude the library for this particular import
         exclude group: 'com.google.code.findbugs'
     }
 }
+
+
 
 
 

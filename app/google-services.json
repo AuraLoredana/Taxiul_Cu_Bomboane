@@ -15,12 +15,24 @@
       },
       "oauth_client": [
         {
-          "client_id": "530072793662-os9lj26km5e3kohvmafhc8s5tb6a1n8t.apps.googleusercontent.com",
+          "client_id": "530072793662-ta7b2pvrka2lblp3mj3ko2mr4cs99gir.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.aura.popescu.tcb",
-            "certificate_hash": "29fafb03db72838d5dadac44d1d7b3954c2e626c"
+            "certificate_hash": "7b22a5a6fab6ada8edbf26caaf0b58818032aaa4"
           }
+        },
+        {
+          "client_id": "530072793662-ar2hm49lmg791k40qg1rtd8eak422d33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aura.popescu.tcb",
+            "certificate_hash": "8602e8b54e3b3571724191d19e9cdff2cf35446f"
+          }
+        },
+        {
+          "client_id": "530072793662-tnfui0oeldmj6lqri5ri866ns8nntra8.apps.googleusercontent.com",
+          "client_type": 3
         },
         {
           "client_id": "530072793662-tnfui0oeldmj6lqri5ri866ns8nntra8.apps.googleusercontent.com",

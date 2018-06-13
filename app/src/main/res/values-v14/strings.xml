@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo_tcb">LOGO TCB</string>
+    <string name="schedule_job">Schedule Job</string>
+</resources>

@@ -21,5 +21,7 @@
         android:padding="16dp"
         android:text="@string/click_to_open_sharing_option"
         android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
         tools:ignore="OnClick" />
 </LinearLayout>

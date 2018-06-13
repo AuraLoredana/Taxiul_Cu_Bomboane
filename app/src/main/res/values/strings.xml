@@ -1,14 +1,9 @@
 <resources>
     <string name="app_name">TCB</string>
-    <string name="compose_email">Compose Email</string>
     <string name="Close" />
     <string name="Open" />
     <string name="widget_id">App Widget ID\u0020</string>
     <string name="URL">Vezi ultimele noutati pe blogul nostru!</string>
-    <string-array name="lang_select">
-        <item>Romanian</item>
-        <item>English</item>
-    </string-array>
     <string name="btn_schedule">Schedule Job</string>
     <string name="btn_cancel">Cancel Job</string>
     <string name="job_scheduled">Job scheduled!</string>
@@ -16,7 +11,7 @@
     <string name="desprenoi">" "Totul a început cu o simplă iniţiativă în primăvara lui 2012 când taximetristul Ion Cristian Roman a dorit să transforme o simplă călătorie prin Bucureşti într-una specială.
         Clienţii primeau bomboane, puteau asculta o muzica placuta sau puteau primi un tur inedit al Capitalei.
         Mai apoi taximetristul s-a gândit că ar putea să strângă carti si jucarii pentru copiii din spitale, urmând ca în fiecare sâmbătă
-        să se meargă la Spitalul Clinic de Urgenţă pentru Copii „Marie Curie”.\n
+        să se meargă la Spitalul Clinic de Urgenţă pentru Copii Marie Curie.\n
 "
 "
         În timp, sute de voluntari şi donatori, parteneri în fapte bune,
@@ -48,7 +43,7 @@
 "
         Clienţii primeau bomboane, puteau asculta o muzica placuta sau puteau primi un tur inedit al Capitalei.
         Mai apoi taximetristul s-a gândit că ar putea să strângă carti si jucarii pentru copiii din spitale, urmând ca în fiecare
-        sâmbătă să se meargă la Spitalul Clinic de Urgenţă pentru Copii “Marie Curie”.\n
+        sâmbătă să se meargă la Spitalul Clinic de Urgenţă pentru Copii Marie Curie.\n
 "
 "
         În timp, sute de voluntari şi donatori, parteneri
@@ -78,14 +73,13 @@
     <string name="undenegasiti">UNDE NE GASITI\n
 "
 "
-        Institutului pentru Sănătate a Mamei și a Copilului “Alfred Rusescu” – marți de la ora 18\n
-        Spitalul Clinic de Urgență pentru Copii “Grigore Alexandrescu” – miercuri de la ora 18\n
-        Spitalul Clinic de Urgență pentru Copii “Marie Sklodowska Curie” – joi de la ora 18\n
+        Institutului pentru Sănătate a Mamei și a Copilului Alfred Rusescu – marți de la ora 18\n
+        Spitalul Clinic de Urgență pentru Copii Grigore Alexandrescu – miercuri de la ora 18\n
+        Spitalul Clinic de Urgență pentru Copii Marie Sklodowska Curie – joi de la ora 18\n
         Bomboland – incinta Flaros SA</string>
-    <string name="pachet_voluntari_adulti">Pachet Voluntari Adulti</string>
-    <string name="pachet_voluntari_minori">Pachet Voluntari Minori</string>
+    <string name="pachet_voluntari_adulti">Pachet Voluntari\n Adulti</string>
+    <string name="pachet_voluntari_minori">Pachet Voluntari\n Minori</string>
     <string name="doneaza">Doneaza!</string>
-    <string name="language_setting">langset</string>
 
     <string name="despre_noi">Despre noi</string>
     <string name="proiectele_noastre">Proiectele noastre</string>
@@ -102,7 +96,6 @@
     <string name="storychar">Story characters</string>
     <string name="donation_pic">Donation pic</string>
     <string name="imagine">imagine</string>
-    <string name="upload_icon">upload icon</string>
     <string name="menu_send_icon">menu send icon</string>
     <string name="logo_of_tcb">logo of tcb</string>
     <string name="login">Login</string>
@@ -119,10 +112,52 @@
     <string name="enlocale">Locale in English !</string>
     <string name="rolocale">Locale in Romanian !</string>
     <string name="langalreadyexists">Language already selected!</string>
-    <string name="schedule_job">Schedule job</string>
-    <string name="appwidget_text">EXAMPLE</string>
+    <string name="appwidget_text">Launch Widget</string>
     <string name="configure">Configure</string>
     <string name="add_widget">Add widget</string>
+    <string name="logo_tcb">LOGO TCB</string>
+    <string name="write_a_message">Write a message...</string>
+    <string name="internet_connection">Internet Connected</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="cantbeblank">can\'t be blank</string>
+    <string name="onlyalphabet">only alphabet or number allowed</string>
+    <string name="atleastfivechar">at least 5 characters long</string>
+    <string name="loading">Loading...</string>
+    <string name="registrationsuccess">registration successful</string>
+    <string name="password">password</string>
+    <string name="usernameexists">username already exists</string>
+    <string name="connectivityexc">Connectivity Exception</string>
+    <string name="usernotfound">user not found</string>
+    <string name="incorrectpassw">incorrect password</string>
+    <string name="pass">password</string>
+    <string name="asociatiagmail">asociatiataxiulcubomboane@gmail.com</string>
+    <string name="sendmailvia">Send email via:</string>
+    <string name="messagerfc">message/rfc822</string>
+    <string name="rating">Rating:</string>
+    <string name="textplain">text/plain</string>
+    <string name="subjectortitle">Subject/Title</string>
+    <string name="choosesharingmethod">Choose sharing method</string>
+    <string name="subjecthere">Subject here</string>
+    <string name="sharingoption">Sharing Option</string>
+    <string name="educatie">Stiri</string>
 
+    <string name="section_id">Section ID:</string>
+    <string name="published">Published :</string>
+    <string name="news_image">News image</string>
+    <string name="time">Time</string>
+    <string name="english">English</string>
+    <string name="romanian">Romanian</string>
+    <string name="select">Select</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="donations">Donations</string>
+    <string name="taxi_with_candy">Taxi with Candy</string>
+    <string name="add_name">Add Name</string>
+    <string name="name">Name</string>
+    <string name="cause">Cause</string>
+    <string name="retrive_donor">Retrive donor</string>
+    <string name="donorsbtn">Donors</string>
+    <string name="review">review</string>
+    <string name="taxi_image">Taxi image</string>
+    <string name="you">You:-</string>
 
 </resources>

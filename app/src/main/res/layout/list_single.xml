@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp">
 
-    <TableRow android:orientation="horizontal">
+    <TableRow android:orientation="horizontal"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:id="@+id/img"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="30dp"
-            android:padding="16dp"
-            android:contentDescription="@string/imagine" />
+            android:contentDescription="@string/imagine"
+            android:padding="16dp" />
 
         <TextView
             android:id="@+id/txt"
-            android:layout_width="250dp"
-            android:layout_height="180dp"
+            android:layout_width="165dp"
+            android:layout_height="250dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
             android:fontFamily="sans-serif"
             android:gravity="start"
             android:paddingTop="10dp"

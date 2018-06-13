@@ -16,6 +16,9 @@
     <item android:id="@+id/doneaza"
         android:icon="@drawable/donate"
         android:title="@string/doneazahomepage" />
+        <item android:id="@+id/education"
+            android:icon="@drawable/newsicon"
+            android:title="@string/educatie" />
     <item android:id="@+id/chat"
         android:icon="@drawable/chat"
         android:title="@string/chat" />
@@ -28,18 +31,9 @@
 
     <group android:id="@+id/grouptwo">
         <item
-            android:id="@+id/rate"
-            android:icon="@drawable/staricon"
-            android:title="@string/rate_us" />
-        <item
             android:id="@+id/share"
             android:icon="@drawable/shareicon"
             android:title="@string/share"
-            app:showAsAction="always" />
-        <item
-            android:id="@+id/schedule"
-            android:icon="@drawable/scheduleicon"
-            android:title="@string/schedule_job"
             app:showAsAction="always" />
     </group>
 </menu>

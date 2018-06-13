@@ -29,7 +29,8 @@
         android:background="@drawable/rounded_corner1"
         android:padding="10dp"
         android:text="@string/rate_this_app"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textview1"

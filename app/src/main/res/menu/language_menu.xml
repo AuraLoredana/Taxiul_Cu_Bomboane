@@ -6,17 +6,17 @@
     <item
         android:id="@+id/select"
         android:icon="@drawable/world"
-        android:title="Select"
+        android:title="@string/select"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/us"
         android:icon="@drawable/flag_us"
-        android:title="English"
+        android:title="@string/english"
         app:showAsAction="never" />
     <item
         android:id="@+id/rom"
         android:icon="@drawable/flag_ro"
-        android:title="Romanian"
+        android:title="@string/romanian"
         app:showAsAction="never" />
 
 

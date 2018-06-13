@@ -1,12 +1,7 @@
 <resources>
     <string name="app_name">TCB</string>
-    <string name="compose_email">Compose Email</string>
     <string name="widget_id">App Widget ID\u0020</string>
     <string name="URL">Check out the latest news on our blog!</string>
-    <string-array name="lang_select">
-        <item>Romanian</item>
-        <item>English</item>
-    </string-array>
 
     <string name="btn_schedule">Schedule Job</string>
     <string name="btn_cancel">Cancel Job</string>
@@ -70,15 +65,14 @@
     <string name="undenegasiti">WHERE YOU CAN FIND US\n
 "
 "
-        Institute for Health of Mother and Child "Alfred Rusescu" – Tuesday from 18 00\n
-        Emergency Clinical Hospital for Children "Grigore Alexandrescu" – Wednesday from 18 00\n
-        Clinical Emergency Hospital for Children "Marie Sklodowska Curie" – Thursday from 18 00\n
+        Institute for Health of Mother and Child Alfred Rusescu – Tuesday from 18 00\n
+        Emergency Clinical Hospital for Children Grigore Alexandrescu – Wednesday from 18 00\n
+        Clinical Emergency Hospital for Children Marie Sklodowska Curie – Thursday from 18 00\n
         Bomboland – inside the building Flaros SA</string>
 
-    <string name="pachet_voluntari_adulti">Adult Voluntary Package</string>
-    <string name="pachet_voluntari_minori">Minor Voluntary Package</string>
+    <string name="pachet_voluntari_adulti">Adult Voluntary\n Package</string>
+    <string name="pachet_voluntari_minori">Minor Voluntary\n Package</string>
     <string name="doneaza">Donate!</string>
-    <string name="language_setting">langset</string>
     <string name="proiectele_noastre">Our Projects</string>
     <string name="despre_noi">About</string>
     <string name="devino_voluntar">Become a volunteer</string>
@@ -92,7 +86,6 @@
     <string name="storychar">Story characters</string>
     <string name="donation_pic">Donation pic</string>
     <string name="imagine">imagine</string>
-    <string name="upload_icon">upload icon</string>
     <string name="menu_send_icon">menu send icon</string>
     <string name="logo_of_tcb">logo of tcb</string>
     <string name="login">Login</string>
@@ -109,7 +102,51 @@
     <string name="enlocale">Locale in English !</string>
     <string name="rolocale">Locale in Romanian !</string>
     <string name="langalreadyexists">Language already selected!</string>
-    <string name="schedule_job">Schedule job</string>
+    <string name="logo_tcb">LOGO TCB</string>
+    <string name="appwidget_text">Launch Widget</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="write_a_message">Write a message...</string>
+    <string name="internet_connection">Internet Connected</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="cantbeblank">can\'t be blank</string>
+    <string name="onlyalphabet">only alphabet or number allowed</string>
+    <string name="atleastfivechar">at least 5 characters long</string>
+    <string name="loading">Loading...</string>
+    <string name="registrationsuccess">registration successful</string>
+    <string name="password">password</string>
+    <string name="usernameexists">username already exists</string>
+    <string name="connectivityexc">Connectivity Exception</string>
+    <string name="usernotfound">user not found</string>
+    <string name="incorrectpassw">incorrect password</string>
+    <string name="pass">password</string>
+    <string name="asociatiagmail">asociatiataxiulcubomboane@gmail.com</string>
+    <string name="sendmailvia">Send email via:</string>
+    <string name="messagerfc">message/rfc822</string>
+    <string name="rating">Rating:</string>
+    <string name="textplain">text/plain</string>
+    <string name="subjectortitle">Subject/Title</string>
+    <string name="choosesharingmethod">Choose sharing method</string>
+    <string name="subjecthere">Subject here</string>
+    <string name="sharingoption">Sharing Option</string>
+    <string name="educatie">News</string>
 
-
+    <string name="section_id">Section ID:</string>
+    <string name="published">Published :</string>
+    <string name="news_image">News image</string>
+    <string name="time">Time</string>
+    <string name="english">English</string>
+    <string name="romanian">Romanian</string>
+    <string name="select">Select</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="donations">Donations</string>
+    <string name="taxi_with_candy">Taxi with Candy</string>
+    <string name="add_name">Add Name</string>
+    <string name="name">Name</string>
+    <string name="cause">Cause</string>
+    <string name="retrive_donor">Retrive donor</string>
+    <string name="donorsbtn">Donors</string>
+    <string name="review">review</string>
+    <string name="taxi_image">Taxi image</string>
+    <string name="you">You:-</string>
 </resources>

@@ -3,11 +3,9 @@
     android:configure="com.aura.popescu.tcb.NewAppWidgetConfigureActivity"
     android:initialKeyguardLayout="@layout/new_app_widget"
     android:initialLayout="@layout/new_app_widget"
-    android:minHeight="40dp"
+    android:minHeight="110dp"
     android:minWidth="110dp"
-    android:previewImage="@drawable/example_appwidget_preview"
+    android:previewImage="@drawable/previewwidget"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="1800000"
-    android:widgetCategory="home_screen">
-
-</appwidget-provider>
+    android:widgetCategory="home_screen" />
