@@ -19,7 +19,7 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.aura.popescu.tcb",
-            "certificate_hash": "7b22a5a6fab6ada8edbf26caaf0b58818032aaa4"
+            "certificate_hash": ""
           }
         },
         {
@@ -27,7 +27,7 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.aura.popescu.tcb",
-            "certificate_hash": "8602e8b54e3b3571724191d19e9cdff2cf35446f"
+            "certificate_hash": ""
           }
         },
         {
