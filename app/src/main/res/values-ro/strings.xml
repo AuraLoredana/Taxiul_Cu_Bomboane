@@ -73,9 +73,9 @@
     <string name="undenegasiti">UNDE NE GASITI\n
 "
 "
-        Institutului pentru Sănătate a Mamei și a Copilului Alfred Rusescu – marți de la ora 18\n
-        Spitalul Clinic de Urgență pentru Copii Grigore Alexandrescu – miercuri de la ora 18\n
-        Spitalul Clinic de Urgență pentru Copii Marie Sklodowska Curie – joi de la ora 18\n
+        Institutului pentru Sănătate a Mamei și a Copilului “Alfred Rusescu” – marți de la ora 18\n
+        Spitalul Clinic de Urgență pentru Copii “Grigore Alexandrescu” – miercuri de la ora 18\n
+        Spitalul Clinic de Urgență pentru Copii “Marie Sklodowska Curie” – joi de la ora 18\n
         Bomboland – incinta Flaros SA</string>
     <string name="pachet_voluntari_adulti">Pachet Voluntari\n Adulti</string>
     <string name="pachet_voluntari_minori">Pachet Voluntari\n Minori</string>
@@ -148,14 +148,6 @@
     <string name="romanian">Romanian</string>
     <string name="select">Select</string>
     <string name="schedule_job">Schedule Job</string>
-    <string name="donations">Donations</string>
-    <string name="taxi_with_candy">Taxi with Candy</string>
-    <string name="add_name">Add Name</string>
-    <string name="name">Name</string>
-    <string name="cause">Cause</string>
-    <string name="retrive_donor">Retrive donor</string>
-    <string name="donorsbtn">Donors</string>
-    <string name="review">review</string>
-    <string name="taxi_image">Taxi image</string>
-    <string name="you">You:-</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1935441773881711/8490383286</string>
 </resources>
